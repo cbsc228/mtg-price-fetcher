@@ -27,7 +27,7 @@ try:
         password="/PASSWORD/",
         host="/HOSTNAME",
         port=3306,
-        database="/DATABASE_NAME/"
+        database="mtg_collection"
     )
 except mariadb.Error as e:
     print(f"Error connecting to MariaDB Platform: {e}")
